@@ -1,0 +1,28 @@
+{
+  "description": "The WA 2000 is a semi-automatic bullpup sniper rifle designed and produced from the late 70s to 1988 in response to the 1972 Summer Olympics Munich massacre. Designed from the ground up as a sniper rifle and not an adaption of an existing rifle base, the WA 2000 has exceptional accuracy and precision, and the bullpup design allowed a standard length barrel to be used while making overall length shorter than most conventional rifles. The rifle is also designed to be used with optical sights only, and thus came with no iron sights.", 
+  "external_url": "https://girlsfrontline.fandom.com/wiki/WA2000#Normal", 
+  "image": "https://static.wikia.nocookie.net/girlsfrontline/images/8/80/Wa2000_norm.png/revision/latest/scale-to-width-down/1000?cb=20160911023020", 
+  "name": "WA2000",
+  "attributes": [
+    {
+      "trait_type": "Health", 
+      "value": 44
+    }, 
+    {
+      "trait_type": "Damage", 
+      "value": 47
+    }, 
+    {
+      "trait_type": "Accuracy", 
+      "value": 10
+    }, 
+    {
+      "trait_type": "Fire Rate", 
+      "value": 26
+    },
+    {
+      "trait_type": "Movement Speed", 
+      "value": 7
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "description": "The Springfield is a bolt-action rifle that served as the service rifle of the United States armed forces for the first half of the 20th century, designed to emulate the successful Mauser bolt-action rifle designs. The Springfield's design adopted many of Mauser's contemporary rifle features of the time, though it also did feature several original Springfield Armory design alterations such as a two-piece firing pin.", 
+  "external_url": "https://girlsfrontline.fandom.com/wiki/Springfield#Normal", 
+  "image": "https://static.wikia.nocookie.net/girlsfrontline/images/7/7a/Springfield_norm.png/revision/latest/scale-to-width-down/1000?cb=20160910091259", 
+  "name": "SPRINGFIELD",
+  "attributes": [
+    {
+      "trait_type": "Health", 
+      "value": 42
+    }, 
+    {
+      "trait_type": "Damage", 
+      "value": 45
+    }, 
+    {
+      "trait_type": "Accuracy", 
+      "value": 9
+    }, 
+    {
+      "trait_type": "Fire Rate", 
+      "value": 21
+    },
+    {
+      "trait_type": "Movement Speed", 
+      "value": 7
+    }
+  ]
+}

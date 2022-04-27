@@ -1,0 +1,28 @@
+{
+  "description": "The Negev is an Israeli light machine gun designed by Israel Weapon Industries (formerly known as Israel Military Industries) which uses universal NATO ammunition. The IWI Negev is a gas-operated selective fire light machine gun that uses propellant gases from the barrel to cycle a short-stroke gas piston operating system under the barrel and a rotary bolt locking mechanism.", 
+  "external_url": "https://girlsfrontline.fandom.com/wiki/Negev#Basic_", 
+  "image": "https://static.wikia.nocookie.net/girlsfrontline/images/b/bc/Negev_norm.png/revision/latest/scale-to-width-down/1000?cb=20160920090236", 
+  "name": "NEGEV",
+  "attributes": [
+    {
+      "trait_type": "Health", 
+      "value": 87
+    }, 
+    {
+      "trait_type": "Damage", 
+      "value": 28
+    }, 
+    {
+      "trait_type": "Accuracy", 
+      "value": 4
+    }, 
+    {
+      "trait_type": "Fire Rate", 
+      "value": 90
+    },
+    {
+      "trait_type": "Movement Speed", 
+      "value": 4
+    }
+  ]
+}

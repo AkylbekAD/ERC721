@@ -1,0 +1,28 @@
+{
+  "description": "The AK-47 is a selective-fire assault rifle developed by Mikhail Kalashnikov. The AK-47's rugged, simple and low maintenance design has earned it legendary reputation, and is one of the most widely used and popular rifle series around the world.", 
+  "external_url": "https://girlsfrontline.fandom.com/wiki/AK-47#Normal", 
+  "image": "https://static.wikia.nocookie.net/girlsfrontline/images/b/bb/Ak47_norm.png/revision/latest?cb=20160911094731", 
+  "name": "AK-47",
+  "attributes": [
+    {
+      "trait_type": "Health", 
+      "value": 66
+    }, 
+    {
+      "trait_type": "Damage", 
+      "value": 20
+    }, 
+    {
+      "trait_type": "Accuracy", 
+      "value": 5
+    }, 
+    {
+      "trait_type": "Fire Rate", 
+      "value": 45
+    },
+    {
+      "trait_type": "Movement Speed", 
+      "value": 10
+    }
+  ]
+}

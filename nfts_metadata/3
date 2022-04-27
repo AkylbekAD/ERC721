@@ -1,0 +1,28 @@
+{
+  "description": "The M4A1 is a selective-fire variant of the original M4 carbine, intended for special operations use. The M4A1 features a heavier barrel for sustained fire, full automatic fire mode and an improved trigger group to improve suppression and close combat capability, and an ambidextrous selector lever for easier use with left-handed shooters. The M4A1 is adopted by almost all US special operation units, favored for its compact firepower.", 
+  "external_url": "https://girlsfrontline.fandom.com/wiki/M4A1#Normal", 
+  "image": "https://static.wikia.nocookie.net/girlsfrontline/images/1/18/M4a1_norm.png/revision/latest/scale-to-width-down/1000?cb=20160911061100", 
+  "name": "M4A1",
+  "attributes": [
+    {
+      "trait_type": "Health", 
+      "value": 55
+    }, 
+    {
+      "trait_type": "Damage", 
+      "value": 17
+    }, 
+    {
+      "trait_type": "Accuracy", 
+      "value": 6
+    }, 
+    {
+      "trait_type": "Fire Rate", 
+      "value": 54
+    },
+    {
+      "trait_type": "Movement Speed", 
+      "value": 10
+    }
+  ]
+}

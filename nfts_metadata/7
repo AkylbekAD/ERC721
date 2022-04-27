@@ -1,0 +1,28 @@
+{
+  "description": "The Lee-Enfield is a bolt-action rifle that was the main service rifle of the British Empire and Commonwealth during the first half of the 20th century from its adoption in 1895 to 1957. A redesign of the earlier Lee-Metford rifle, the Lee-Enfield replaced the earlier Martini-Henry, Martini-Enfield and Lee-Metford rifles. Featuring an easier and faster bolt operation than the Mauser Gewehr 98, it also featured a detachable magazine, a very advanced and modern feature for its time.", 
+  "external_url": "https://girlsfrontline.fandom.com/wiki/Lee-Enfield", 
+  "image": "https://static.wikia.nocookie.net/girlsfrontline/images/4/4d/Lee-Enfield.png/revision/latest/scale-to-width-down/1000?cb=20200119124450", 
+  "name": "LEE-ENFIELD",
+  "attributes": [
+    {
+      "trait_type": "Health", 
+      "value": 40
+    }, 
+    {
+      "trait_type": "Damage", 
+      "value": 45
+    }, 
+    {
+      "trait_type": "Accuracy", 
+      "value": 9
+    }, 
+    {
+      "trait_type": "Fire Rate", 
+      "value": 23
+    },
+    {
+      "trait_type": "Movement Speed", 
+      "value": 7
+    }
+  ]
+}
