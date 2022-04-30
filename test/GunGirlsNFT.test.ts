@@ -7,7 +7,7 @@ import { solidity } from "ethereum-waffle"
 
 chai.use(solidity);
 
-describe("Staking contract", function () {
+describe("ERC20 contract", function () {
   let GunGirlsNFT;
   let GunGirlsNFTInterface: Contract;
   let owner: SignerWithAddress;
