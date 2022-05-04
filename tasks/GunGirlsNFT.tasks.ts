@@ -1,7 +1,8 @@
 import { task } from "hardhat/config";
 
-const ContractAddress = "0xB3dEf797Bfb93841efb1B98A61a71F1317c22d64" // for Rinkeby network;
-// const ContractAddress = "0x5FbDB2315678afecb367f032d93F642f64180aa3" // for localhost network:
+// const ContractAddress = "0xB3dEf797Bfb93841efb1B98A61a71F1317c22d64" //OLD for Rinkeby network;
+const ContractAddress = "0xfB90d78f44f39aeB1ddeC89fAfc29bFd8B533623" //NEW for Rikneby network;
+// const ContractAddress = "0x5FbDB2315678afecb367f032d93F642f64180aa3" // for localhost network;
 
 task("mintTo", "Owner mints new token to address")
     .addParam("to", "Address new token mint to")
@@ -77,4 +78,28 @@ task("setBaseTokenURI", "Setting new base token URI")
         const GunGirlsNFTInterface = await hre.ethers.getContractAt("GunGirlsNFT", ContractAddress)
         await GunGirlsNFTInterface.setBaseTokenURI(taskArgs.uri)
         console.log(`Now base token URI is ${taskArgs.uri}`)
+    })
+
+task("giveAdminRights", "Adds new account as a Admin")
+    .addParam("address", "Address to make a Admin")
+    .setAction(async (taskArgs, hre) => {
+        const GunGirlsNFTInterface = await hre.ethers.getContractAt("GunGirlsNFT", ContractAddress)
+        await GunGirlsNFTInterface.giveAdminRights(taskArgs.address)
+        console.log("New Admin is:", taskArgs.address)
+    })
+
+task("revokeAdminRights", "Revoke account as a Admin")
+    .addParam("address", "Address to revoke as Admin")
+    .setAction(async (taskArgs, hre) => {
+        const GunGirlsNFTInterface = await hre.ethers.getContractAt("GunGirlsNFT", ContractAddress)
+        await GunGirlsNFTInterface.revokeAdminRights(taskArgs.address)
+        console.log(taskArgs.address,"Now is not a Admin")
+    })
+
+task("burn", "Burn NFT")
+    .addParam("tokenid", "Token id you want to burn")
+    .setAction(async (taskArgs, hre) => {
+        const GunGirlsNFTInterface = await hre.ethers.getContractAt("GunGirlsNFT", ContractAddress)
+        await GunGirlsNFTInterface.burn(taskArgs.tokenid)
+        console.log("You have burn it", taskArgs.tokenid)
     })
